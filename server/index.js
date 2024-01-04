@@ -19,7 +19,7 @@ app.use("/posts", postRoutes);
 app.use("/user", userRouter);
 app.use("/requests", requestRouter);
 const CONNECTION_URL =
-  "mongodb+srv://lightofcats3:MtsIFEzMnSLJO61X@cluster0.g5x2e1w.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://**For the URL**";
 
 const PORT = process.env.PORT || 5000;
 
